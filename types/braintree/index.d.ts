@@ -227,7 +227,7 @@ declare namespace braintree {
         refund(transactionId: string, amount?: string): Promise<ValidatedResponse<Transaction>>;
         releaseFromEscrow(transactionId: string): Promise<Transaction>;
         sale(request: TransactionRequest): Promise<ValidatedResponse<Transaction>>;
-        search(searchFn: any): stream.Readable;
+        search(searchFn: Function, callback?: Function): stream.Readable;
         submitForPartialSettlement(
             authorizedTransactionId: string,
             amount: string,
