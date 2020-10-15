@@ -2,15 +2,12 @@
     "private": true,
     "name": "custom-types",
     "version": "0.0.3",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "homepage": "https://github.com/sonnguyeninspirelife/custom-types",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+        "url": "git+https://github.com/sonnguyeninspirelife/custom-types.git"
     },
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
-    },
     "engines": {
         "node": ">=7.8.0"
     },
